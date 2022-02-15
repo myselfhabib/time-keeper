@@ -1,0 +1,234 @@
+*{
+    margin:0px;
+    padding: 0;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+#testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.testimonials-h2{
+    font-family: chronicle-deck-cond;
+}
+.testimonial-heading{
+    letter-spacing: 1px;
+    margin: 30px 0px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial-heading h2{
+    font-size: 2.2rem;
+    font-weight: 500;
+    background-color: rgb(20, 20, 20);
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+.testimonial-heading span{
+    font-size: 1.3rem;
+    color: #252525;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.testimonial-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.testimonial-box{
+    width: 500px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+.profile-img{
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;
+ overflow: hidden;
+ margin-right: 10px;
+}
+.profile-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+/* .profile{
+    display: flex;
+     align-items: center;
+} */
+
+.user-name{
+    display: flex;
+    flex-direction: column;
+}
+.user-name strong{
+    color: #3d3d3d;
+    font-size: 1.0rem;
+    letter-spacing: 0.5px;
+
+}
+.reviews{
+    /* margin-right: 80%; */
+    color: rgb(219, 185, 33);
+}
+.user-name span{
+    color: #979797;
+    font-size: 0.8rem;
+}
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.client-comment{
+    font-size: 0.9rem;
+    color:#4b4b4b;
+    text-align: start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.flex{
+    display: flex;
+}
+.Review{
+    max-width: 1000px;
+    margin: 50px auto 100px auto;
+}
+
+.Review h1{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+    line-height: 0;
+    color: red;
+    margin-bottom: 100px;
+
+}
+.Review h1 span{
+    line-height: 0;
+    padding: 1px 15px;
+    margin: 0 2px;
+    background-color: rgba(255, 0, 0, 0.274);
+}
+
+.Review-op{
+    margin: 0 auto;
+    max-width: 1100px;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.432);
+
+}
+.Review-op .item{
+    margin: 0 auto;
+    padding: 20px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.Review-op .item img{
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+
+.Review-op .item h3{
+    text-align: center;
+    margin-top: 20px;
+font-family: 'Baloo 2', cursive;
+    font-size: 1.5rem;
+    color: rgb(48, 17, 17);
+    line-height: 20px;
+}
+.Review-op .item p{
+    margin-top: 20px;
+    font-family: 'Acme', sans-serif;
+    font-size: .7rem;
+    color: rgb(48, 17, 17);
+}
+
+
+.Review-op .item div{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+.Review-op .item div i{
+    color: red;
+}
+
+@media only screen and (min-width: 566px){
+    .flex{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    } */
+
+
+
+ /* @media screen and (max-width:500px) {
+
+    
+    .Review h1{
+        font-size: 1.5rem;
+    
+    }
+
+    .Review h1 span{
+        line-height: 0;
+        padding: 1px 8px;
+        margin: 0 2px;
+        background-color: rgba(255, 0, 0, 0.274);
+    }
+       
+
+} */

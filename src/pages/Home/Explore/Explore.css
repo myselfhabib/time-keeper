@@ -1,0 +1,38 @@
+.explore{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.explore1{
+    height: 90%;
+}
+.text{
+    margin-top: 44%;
+    font-family: chronicle-deck-cond;
+    margin-left: 3%;
+}
+.text2{
+    color: grey;
+    margin-left: 20PX;
+}
+.see-more{
+    background-color: gray;
+    padding: 10px 20px;
+    font-weight: 600;
+    border: none;
+    color: whitesmoke;
+    
+}
+.see-more:hover{
+    background-image: linear-gradient(rgb(233, 72, 147), rgb(63, 149, 230));
+    color: honeydew;
+}
+
+
+
+
+@media only screen and (max-width: 700px){
+    .explore{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    }

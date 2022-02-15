@@ -1,0 +1,43 @@
+.profile{
+    height: 4opx;
+    width: 40px;
+    border-radius: 50px;
+}
+.logo-name{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: large;
+}
+.nv-bg{
+    background-color: rgb(31, 36, 44);
+}
+.nav-link{
+    color: rgb(194, 2, 2);
+}
+.nav-link:hover{
+    color: white;
+}
+.logo-name:hover{
+    color: rgb(194, 2, 2);
+}
+.nav-link2{
+    color: rgb(194, 2, 2);
+    text-decoration: none;
+}
+.nav-link2:hover{
+    color: white;
+}
+.nav-link3{
+    color: rgb(194, 2, 2);
+    text-decoration: none;
+    margin-left: 15px;
+}
+.nav-link3:hover{
+    color: white;
+}
+.logo1{
+width: 46px;
+height: 46px;
+margin-right: 9px;
+}

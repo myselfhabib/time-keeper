@@ -1,0 +1,39 @@
+.links{
+    background-color: rgb(75, 71, 70);
+    margin-top: 30%;
+    color: white;
+}
+.dash{
+    border: 2px solid rgb(134, 134, 134);
+    border-radius: 8px;
+    padding: 5px;
+    margin-right: 10px;
+    /* margin-left: 70%; */
+}
+.dash:hover{
+    background-color: rgb(5, 97, 201);
+    color: white;
+}
+.dash2{
+    color: white;
+}
+.dash2:hover{
+    color: rgb(15, 6, 49);
+}
+.logo-point{
+    color: white;
+    font-weight: 500;
+}
+.logo-point:hover{
+color: rgb(197, 13, 22);
+font-weight: 500;
+}
+.nav-linker{
+    color: whitesmoke;
+    font-weight: 400;
+    margin-right: 10px;
+    margin-left: 65%;
+}
+.nav-linker:hover{
+    color: rgb(36, 5, 116);
+}
